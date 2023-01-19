@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         color: Color.fromARGB(255, 43, 40, 40),
         title: 'Calculator',
         home: Scaffold(
-            backgroundColor: Color.fromARGB(255, 65, 62, 62),
+            backgroundColor: Color.fromARGB(255, 0, 0, 0),
             body: CalculatorBody()));
   }
 }

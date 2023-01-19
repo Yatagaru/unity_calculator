@@ -23,5 +23,12 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-
+  fonts:
+    - family: Clock
+      fonts:
+        - asset: assets/fonts/Alarm-Clock.ttf
+          style: normal
   uses-material-design: true
+
+
+
