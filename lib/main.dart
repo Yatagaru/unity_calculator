@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:unity_calculator/calculator_body.dart';
+import 'package:unity_calculator/calculator_core.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +15,6 @@ class MyApp extends StatelessWidget {
         title: 'Calculator',
         home: Scaffold(
             backgroundColor: Color.fromARGB(255, 0, 0, 0),
-            body: CalculatorBody()));
+            body: CalculatorCore()));
   }
 }
